@@ -4,10 +4,8 @@ Predict Tesla stock price trends with news articles
 1. Data: Codes to Collect Data and some Raw Data collected through downlowading from website
       
      a. raw_data: Store collected raw data and data collected by codes
-     
-         -Europe_Brent_Spot_Price_FOB_modified.csv: Oil price data downlowded from https://www.eia.gov/dnav/pet/hist/RBRTED.htm
-         
-         -Dow Jones Automobiles Historical Data.csv: Automobile market data download from https://www.investing.com/indices/dj-automobiles---parts-historical-data
+        - Europe_Brent_Spot_Price_FOB_modified.csv: Oil price data downlowded from https://www.eia.gov/dnav/pet/hist/RBRTED.htm
+        - Dow Jones Automobiles Historical Data.csv: Automobile market data download from https://www.investing.com/indices/dj-automobiles---parts-historical-data
          
      b. stock_data.ipynb: Codes to collect stock price data through `yfinace API`, combine them and existing data in `raw_data` into `stock_price_all.pkl`
      
