@@ -3,4 +3,10 @@ Predict Tesla stock price trends with news articles
 
 1. Data: Codes to Collect Data and some Raw Data collected through downlowading from website
       
-     raw_data: Store collected raw data and data collected by codes
+     a. raw_data: Store collected raw data and data collected by codes
+         * Europe_Brent_Spot_Price_FOB_modified.csv: Oil price data downlowded from https://www.eia.gov/dnav/pet/hist/RBRTED.htm
+         * Dow Jones Automobiles Historical Data.csv: Automobile market data download from https://www.investing.com/indices/dj-automobiles---parts-historical-data
+         
+     b. stock_data.ipynb: Codes to collect financial data through `yfinace API`, combine them and existing data in `raw_data` into `stock_price_all.pkl`
+     c. news_scraping_api.ipynb: Codes to collect news articles through `geporigon API` (https://www.goperigon.com/account/api-key) and store collected data into `output.csv`
+     d. news_sen_final.ipynb: Codes to calculate sentiment scores for those news articles through NLP Python Package `nltk` and `flair`, and then store results in `news_sen_score.pkl` 
