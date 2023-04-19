@@ -6,3 +6,6 @@ torch
 pickle
 gc
 tqdm
+nltk
+flair
+yfinance
